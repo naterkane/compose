@@ -1,0 +1,4 @@
+.gitconfig
+cassandra/*
+postgresql/data/*
+rabbitmq/*
