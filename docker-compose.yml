@@ -10,6 +10,8 @@ services:
       - "9160:32773"
     volumes:
       - ./cassandra:/var/lib/cassandra
+      - ./cassandra-entrypoint.sh:/docker-entrypoint.sh
+      - ./cassandra-commands.cql:/docker-entrypoint-initdb.d/cassandra-commands.cql
   postgres:
     image: postgres:latest
     ports:
