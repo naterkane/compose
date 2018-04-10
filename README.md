@@ -40,4 +40,4 @@ compose_rabbitmq_1    docker-entrypoint.sh rabbi ...   Up      25672/tcp, 0.0.0.
 
 ## Todo
 
-* add entrypoint and other scripts for configuration of services, etc
+* ~~add cassandra entrypoint and other scripts for configuration of services, etc~~
